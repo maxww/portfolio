@@ -12,10 +12,26 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
 
+import router from './routes';
+app.use('/api', router)
 
-// import router from './routes';
-// app.use('/api', router)
+
+import path from 'path';
+const rootPath = path.join(__dirname, '../');
+const indexPath = path.join(rootPath, './public/index.html')
+app.setValue = app.set.bind(app);
+app.setValue('indexHTMLPath', indexPath);
+// So we can refresh the page and won't get 404
+app.get('/*', function (req, res) {
+	res.sendFile(app.get('indexHTMLPath'));
+});
 
 app.listen(3000, function () {
 	console.log("now listening port 3000")
 })
+
+app.use(function (err, req, res, next) {
+	console.error(err);
+	console.error(err.stack);
+	res.status(err.status || 500).send(err.message || 'Internal server error.');
+});

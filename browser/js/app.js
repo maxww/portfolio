@@ -7,4 +7,5 @@ var app = angular.module('portfolio', ['ui.router'])
 
 		// invalid routes redirect to the root
 		$urlRouterProvider.otherwise('/');
+
 	})

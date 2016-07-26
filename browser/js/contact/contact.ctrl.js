@@ -1,3 +1,3 @@
-app.controller("contactCtrl", function ($state, $scope) {
-	$scope.contact = "contact"
+app.controller("contactCtrl", function ($scope, contactInfo) {
+	$scope.contact = contactInfo
 })
