@@ -1,3 +1,3 @@
-app.controller("homeCtrl", function ($state, $scope) {
-	$scope.hi = "hi"
+app.controller("homeCtrl", function ($scope, home) {
+	$scope.home = home;
 })

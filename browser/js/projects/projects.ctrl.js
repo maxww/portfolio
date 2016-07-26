@@ -1,3 +1,3 @@
-app.controller("projectsCtrl", function ($state, $scope) {
-	$scope.projects = "projects"
+app.controller("projectsCtrl", function ($scope, projects) {
+	$scope.projects = projects;
 })

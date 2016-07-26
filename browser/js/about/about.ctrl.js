@@ -1,3 +1,3 @@
-app.controller("aboutCtrl", function ($state, $scope) {
-	$scope.about = "about"
+app.controller("aboutCtrl", function ($scope, about) {
+	$scope.about = about;
 })
