@@ -146,7 +146,7 @@ gulp.task('default', function () {
 	gulp.start('build');
 
 	// Run when anything inside of browser/js changes.
-	gulp.watch(['./browser/js/**', './*'], function () {
+	gulp.watch(['./browser/js/**/*.js', './*'], function () {
 		runSeq('buildJS', 'reload');
 	});
 
