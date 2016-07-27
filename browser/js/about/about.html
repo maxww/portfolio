@@ -1,49 +1,57 @@
-<h3>{{about.name}}</h3>
-<p>{{about.phone}}</p>
-<p>{{about.email}}</p>
-<p>{{about.linkedIn}}</p>
-<p>{{about.github}}</p>
-<p>{{about.location}}</p>
-<div>
-    <h4>Experiences</h4>
-    <div ng-repeat="ex in about.experience">
-        <p>{{ex.date}}</p>
-        <p>{{ex.company}}</p>
-        <p>{{ex.role}}</p>
-        <p>
-            <ul>
-                <li ng-repeat="de in ex.details">
-                    {{de.detail}}
-                </li>
-            </ul>
-        </p>
+<div class="container about">
+    <div class="col-lg-1 col-xs-1"></div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+        <h3>{{about.name}}</h3>
+        <p>{{about.phone}}</p>
+        <p>{{about.email}}</p>
+        <p>{{about.linkedIn}}</p>
+        <p>{{about.github}}</p>
+        <p>{{about.location}}</p>
+        <div>
+            <h4>Experiences</h4>
+            <div ng-repeat="ex in about.experience">
+                <p>{{ex.date}}</p>
+                <p>{{ex.company}}</p>
+                <p>{{ex.role}}</p>
+                <p>
+                    <ul>
+                        <li ng-repeat="de in ex.details">
+                            {{de.detail}}
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div>
+            <h4>Education</h4>
+            <div ng-repeat="ed in about.education">
+                <p>{{ed.date}}</p>
+                <p>{{ed.school}}</p>
+                <p>{{ed.degree}}</p>
+                <p>{{ed.honor}}</p>
+            </div>
+        </div>
     </div>
-</div>
-<div>
-    <h4>Education</h4>
-    <div ng-repeat="ed in about.education">
-        <p>{{ed.date}}</p>
-        <p>{{ed.school}}</p>
-        <p>{{ed.degree}}</p>
-        <p>{{ed.honor}}</p>
+    <div class="col-lg-1 col-xs-1"></div>
+    <div class="col-lg-4 col-md-4 col-xs-12">
+        <div>
+            <h4>Technical Skills</h4>
+            <h5>Proficient</h5>
+            <p>{{about.technicalSkills.proficient}}</p>
+            <h5>Knowledgeable</h5>
+            <p>{{about.technicalSkills.knowledgeable}}</p>
+        </div>
+        <div>
+            <h4>Awards</h4>
+            <div ng-repeat="ad in about.awards">
+                <p>{{ad.date}}</p>
+                <p>{{ad.school}}</p>
+                <p>{{ad.award}}</p>
+            </div>
+        </div>
+        <div>
+            <h4>Languages</h4>
+            <p>{{about.languages}}</p>
+        </div>
     </div>
-</div>
-<div>
-    <h4>Technical Skills</h4>
-    <h5>Proficient</h5>
-    <p>{{about.technicalSkills.proficient}}</p>
-    <h5>Knowledgeable</h5>
-    <p>{{about.technicalSkills.knowledgeable}}</p>
-</div>
-<div>
-    <h4>Awards</h4>
-    <div ng-repeat="ad in about.awards">
-        <p>{{ad.date}}</p>
-        <p>{{ad.school}}</p>
-        <p>{{ad.award}}</p>
-    </div>
-</div>
-<div>
-    <h4>Languages</h4>
-    <p>{{about.languages}}</p>
 </div>
