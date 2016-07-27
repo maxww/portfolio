@@ -2,6 +2,11 @@ import { Router } from 'express';
 const router = Router();
 export default router;
 
+import path from 'path';
+const rootPath = path.join(__dirname, '../../');
+const aboutPath = path.join(rootPath, './server/db/about.js')
+const projectsPath = path.join(rootPath, './server/db/projects.js')
+
 router.get("/home", function (req, res, next) {
 	console.log("home")
 	res.status(200).json({ "home": "home" });
@@ -9,12 +14,8 @@ router.get("/home", function (req, res, next) {
 
 router.get("/about", function (req, res, next) {
 	console.log("about")
-	res.status(200).json({ "about": "about" });
+	res.status(200).sendFile(aboutPath);
 })
-
-import path from 'path';
-const rootPath = path.join(__dirname, '../../');
-const projectsPath = path.join(rootPath, './server/db/projects.js')
 
 
 router.get("/projects", function (req, res, next) {

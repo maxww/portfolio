@@ -3,7 +3,7 @@ app.factory('aboutFty', function ($http) {
 	aboutFty.getAbout = function () {
 		return $http.get('/api/about')
 			.then(function (res) {
-				return res.data.about;
+				return res.data;
 			})
 	}
 	return aboutFty;
