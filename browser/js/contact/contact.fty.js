@@ -3,7 +3,7 @@ app.factory('contactFty', function ($http) {
 	contactFty.getContactInfo = function () {
 		return $http.get('/api/contact')
 			.then(function (res) {
-				return res.data.contact;
+				return res.data;
 			})
 	}
 	return contactFty;
