@@ -1,4 +1,4 @@
-<div ng-repeat="project in projects">
+<!-- <div ng-repeat="project in projects">
     <h2>{{project.title}}</h2>
     <h3>{{project.shortDes}}</h3>
     <h4>{{project.role}}</h4>
@@ -15,6 +15,16 @@
         </li>
     </ul>
     <div ng-repeat="img in project.images">
-        <img src="{{img.img}}"/>
+        <img class="img-responsive" src="{{img.img}}"/>
     </div>
+</div> -->
+<div class="col-lg-6 pjImg">
+    <!-- <img class="img-responsive" src="{{pathparadoxImgs[0].img}}"/> -->
+    <!-- <img class="img-responsive" src="{{pathparadoxImgs[1].img}}"/> -->
+    <img class="img-responsive" src="{{pathparadoxImgs[2].img}}"/>
+</div>
+<div class="col-lg-6 pjImg">
+    <!-- <img class="img-responsive" src="{{moreCatImgs[0].img}}"/> -->
+    <img class="img-responsive" src="{{moreCatImgs[1].img}}"/>
+    <!-- <img class="img-responsive" src="{{moreCatImgs[2].img}}"/> -->
 </div>

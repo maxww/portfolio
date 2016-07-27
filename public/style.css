@@ -1,1 +1,10 @@
+.nav, .pjImg {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.options {
+    padding: 10px;
+}
 .about {}
