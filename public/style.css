@@ -2,7 +2,11 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    ;
+}
+.pjHover:hover {
+    width: 450px;
 }
 .options {
     padding: 10px;
