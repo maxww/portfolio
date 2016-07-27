@@ -1,35 +1,11 @@
-<!-- <div ng-repeat="project in projects">
-    <h2>{{project.title}}</h2>
-    <h3>{{project.shortDes}}</h3>
-    <h4>{{project.role}}</h4>
-    <ul>
-        <li ng-repeat="des in project.description">{{des.des}}</li>
-    </ul>
-    <ul>
-        <li>{{project.links.website}}</li>
-        <li>
-            {{project.links.github}}
-        </li>
-        <li>
-            {{project.links.youtube}}
-        </li>
-    </ul>
-    <div ng-repeat="img in project.images">
-        <img class="img-responsive" src="{{img.img}}"/>
-    </div>
-</div> -->
 <div class="col-lg-5 pjImg">
-    <div class="pjHover">
-        <!-- <img class="img-responsive" src="{{pathparadoxImgs[0].img}}"/> -->
-        <!-- <img class="img-responsive" src="{{pathparadoxImgs[1].img}}"/> -->
+    <div class="pjHover" ui-sref="project({name:'pathparadox'})">
         <img class="img-responsive" src="{{pathparadoxImgs[2].img}}"/>
     </div>
 </div>
 <div class="col-lg-1"></div>
 <div class="col-lg-5 pjImg">
-    <div class="pjHover">
-        <!-- <img class="img-responsive" src="{{moreCatImgs[0].img}}"/> -->
+    <div class="pjHover" ui-sref="project({name:'morecat'})">
         <img class="img-responsive phHover" src="{{moreCatImgs[1].img}}"/>
-        <!-- <img class="img-responsive" src="{{moreCatImgs[2].img}}"/> -->
     </div>
 </div>

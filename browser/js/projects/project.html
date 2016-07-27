@@ -1,0 +1,20 @@
+<div class="col-lg-10">
+    <h2>{{project.title}}</h2>
+    <h3>{{project.shortDes}}</h3>
+    <h4>{{project.role}}</h4>
+    <ul>
+        <li ng-repeat="des in project.description">{{des.des}}</li>
+    </ul>
+    <ul>
+        <li ng-show="project.links.website">{{project.links.website}}</li>
+        <li>
+            {{project.links.github}}
+        </li>
+        <li>
+            {{project.links.youtube}}
+        </li>
+    </ul>
+    <div ng-repeat="img in project.images">
+        <img class="img-responsive" src="{{img.img}}"/></br>
+</div>
+</div>
