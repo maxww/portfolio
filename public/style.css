@@ -1,20 +1,36 @@
+#main {
+    padding: 0px;
+}
 .view {
     height: 100%;
-    padding: 50px 0 0 0;
-    background-color: b9b9b9;
+    background-color: fcfcfc;
 }
 .sidebar {
     height: 100%;
-    background-color: e2e2e2;
+    background-color: fcfcfc;
 }
 .nav {
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+.homeBox {
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects {
+    height: 100%;
+    margin: 40px 0 0 0;
+    background-color: #EFEFEF;
 }
 .pjHover {
-    padding: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 .pjs {
     padding: 0px;
@@ -23,18 +39,19 @@
     width: 441.25px;
     height: 248.55px;
 }
-
-/*.pjHover:hover {
-    width: 410px;
-}*/
-
 .options {
     padding: 10px;
 }
-.about {}
+.white {
+    background-color: #ffffff;
+}
 .grey {
-    background-color: e9e9e9;
+    background-color: #EFEFEF;
 }
 .greytwo {
-    background-color: d3d3d3;
+    background-color: #D6D6D6;
+}
+.greythree {
+    background-color: #4A515A;
+    color: #EFEFEF;
 }
