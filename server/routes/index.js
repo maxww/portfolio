@@ -10,7 +10,7 @@ const projectsPath = path.join(rootPath, './server/db/projects.js')
 
 router.get("/home", function (req, res, next) {
 	console.log("home")
-	res.status(200).json({ "home": "home" });
+	res.status(200).end();
 })
 
 router.get("/about", function (req, res, next) {

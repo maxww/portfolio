@@ -1,10 +1,10 @@
 app.config(function ($stateProvider) {
 	$stateProvider.state("all", {
-			url: "/",
+			url: "/taffy",
 			templateUrl: "/js/all/all.html"
 		})
 		.state("all.about", {
-			url: "about",
+			url: "/about",
 			templateUrl: "/js/about/about.html",
 			controller: "aboutCtrl",
 			resolve: {

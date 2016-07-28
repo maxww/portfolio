@@ -4,18 +4,16 @@
 }
 .view {
     height: 100%;
+    overflow: scroll;
     background-color: fcfcfc;
 }
-.sidebar {
-    height: 100%;
-    background-color: #EFEFEF;
-}
 .nav {
-    height: 600px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #EFEFEF;
 }
 .homeBox {
     height: 33.3%;
@@ -39,20 +37,19 @@ ul {
 .block {
     margin: 20px 0 30px 0;
 }
-.projects {
-    height: 100%;
-    margin: 40px 0 0 0;
-    background-color: #EFEFEF;
-}
-.pjHover {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
 .pjs {
-    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-.pjImgs {
+.pj {
+    /*display: flex;
+    justify-content: center;*/
+    padding: 20px;
+}
+.pjImg {
     width: 441.25px;
     height: 248.55px;
 }
@@ -61,6 +58,7 @@ ul {
 }
 .white {
     background-color: #ffffff;
+    font-weight: bold;
 }
 .grey {
     background-color: #EFEFEF;
