@@ -67,6 +67,27 @@ ul {
 .des {
     margin-top: 25px;
 }
+.keepInTouch {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.message {
+    resize: none;
+    border-style: none;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+input {
+    width: 200px;
+    margin-top: 10px;
+    border-style: none;
+}
 
 /*colors*/
 
