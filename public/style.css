@@ -43,19 +43,15 @@ ul {
 }
 .pjs {
     height: 100%;
+    padding: 0 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
-.pj {
-    /*display: flex;
-    justify-content: center;*/
-    padding: 20px;
-}
 .pjImg {
-    width: 441.25px;
-    height: 248.55px;
+    width: 479.06px;
+    height: 280px;
 }
 .pjIm {
     margin-top: 15px;
