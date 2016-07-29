@@ -2,6 +2,13 @@
     padding: 0px;
     font-family: raleway;
 }
+a {
+    color: #B7B7B7;
+}
+a:hover {
+    color: #D6D6D6;
+    text-decoration: none;
+}
 .view {
     height: 100%;
     overflow: scroll;
@@ -21,12 +28,9 @@
     align-items: center;
     justify-content: center;
 }
-h3, h4 {
+h2, h3, h4 {
     font-weight: bold;
     margin-top: 30px;
-}
-.date {
-    color: #B7B7B7;
 }
 .organization {
     font-weight: bold;
@@ -53,8 +57,25 @@ ul {
     width: 441.25px;
     height: 248.55px;
 }
+.pjIm {
+    margin-top: 15px;
+    width: 640px;
+    height: 370px;
+}
 .options {
     padding: 10px;
+}
+.project {
+    padding-left: 85px;
+}
+.des {
+    margin-top: 25px;
+}
+
+/*colors*/
+
+.date {
+    color: #B7B7B7;
 }
 .white {
     background-color: #ffffff;
