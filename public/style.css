@@ -23,9 +23,12 @@ a:hover {
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     background-color: #EFEFEF;
+}
+.navItems {
+    padding: 10px;
 }
 .homeBox {
     height: 33.3%;
@@ -62,9 +65,6 @@ ul {
     margin-top: 15px;
     width: 640px;
     height: 370px;
-}
-.options {
-    padding: 10px;
 }
 .project {
     padding-left: 85px;
