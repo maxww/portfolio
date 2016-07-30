@@ -6,5 +6,5 @@ var app = angular.module('portfolio', ['ui.router', 'ngAnimate'])
 		$locationProvider.html5Mode(true);
 
 		// invalid routes redirect to the root
-		$urlRouterProvider.otherwise('/');
+		$urlRouterProvider.when('/', '/home');
 	})

@@ -1,6 +1,7 @@
 #main {
     padding: 0px;
     font-family: raleway;
+    line-height: 200%;
 }
 a {
     color: #B7B7B7;
@@ -43,8 +44,7 @@ a:hover {
     padding: 12px 16px;
 }
 .bio>p {
-    font-size: 16px;
-    line-height: 200%;
+    font-size: 15px;
 }
 .bioRightSide {
     margin-top: 130px;
@@ -102,9 +102,13 @@ ul {
     background-color: #ffffff;
     color: #D6D6D6;
 }
-.grey {
+#tc {
+    color: #4A515A;
     font-weight: bold;
+}
+.grey {
     background-color: #EFEFEF;
+    color: #D6D6D6;
 }
 .greytwo {
     background-color: #D6D6D6;

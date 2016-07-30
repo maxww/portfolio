@@ -1,14 +1,19 @@
 app.config(function ($stateProvider) {
 	$stateProvider.state("all", {
-			url: "/taffy",
+			url: "/",
 			templateUrl: "/js/all/all.html"
 		})
+		.state("all.home", {
+			url: "home",
+			templateUrl: "/js/home/home.html",
+			controller: "homeCtrl"
+		})
 		.state("all.resume", {
-			url: "/resume",
+			url: "resume",
 			templateUrl: "/js/about/resume.html",
-			controller: "aboutCtrl",
+			controller: "resumeCtrl",
 			resolve: {
-				about: function (aboutFty) {
+				resume: function (aboutFty) {
 					return aboutFty.getAbout();
 				},
 				projects: function (projectsFty) {
@@ -17,31 +22,12 @@ app.config(function ($stateProvider) {
 			}
 		})
 		.state("all.about", {
-			url: "/about",
+			url: "about",
+			controller: "aboutCtrl",
 			templateUrl: "/js/about/about.html"
 		})
-		.state("all.contact", {
-			url: "/contact",
-			templateUrl: "/js/contact/contact.html",
-			controller: "contactCtrl",
-			resolve: {
-				contactInfo: function (contactFty) {
-					return contactFty.getContactInfo();
-				}
-			}
-		})
-		.state("all.projects", {
-			url: "/projects",
-			templateUrl: "/js/projects/projects.html",
-			controller: "projectsCtrl",
-			resolve: {
-				projects: function (projectsFty) {
-					return projectsFty.getProjects();
-				}
-			}
-		})
 		.state("all.project", {
-			url: "/:name",
+			url: ":name",
 			templateUrl: "/js/projects/project.html",
 			controller: "projectCtrl",
 			resolve: {

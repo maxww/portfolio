@@ -1,14 +1,20 @@
 <div class="nav navbar-fixed-top">
-    <div class="navItems" ui-sref="home">
+    <div class="navItems" ui-sref="all.home">
         <img src="/images/tc.png"/>
     </div>
     <div class="navItems resume">
-        <span>Info</span>
+        <img src="/images/info.png"/>
         <div class="dropdown">
             <p ui-sref="all.about">about</p>
             <p ui-sref="all.resume">
                 resume
                 <a href=https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Torng-Lin%20(Taffy)%20Chen%20Resume.pdf?alt=media&token=a6a91dde-72a8-416b-b9df-633f11755bae download="Torng-Lin (Taffy) Chen Resume.pdf">pdf</a>
+            </p>
+            <p ui-sref="all.project({name:'pathparadox'})">
+                Path Paradox
+            </p>
+            <p ui-sref="all.project({name:'morecat'})">
+                moreCat
             </p>
         </div>
     </div>

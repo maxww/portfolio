@@ -1,3 +1,3 @@
-app.controller("homeCtrl", function ($scope, home) {
-	$scope.home = home;
+app.controller("homeCtrl", function ($scope, $rootScope) {
+	$rootScope.nav = false;
 })
