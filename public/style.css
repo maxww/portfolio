@@ -4,7 +4,7 @@ html, body {
 }
 body {
     padding: 0;
-    background-color: #EFEFEF;
+    background-color: #fcfcfc;
     font-size: 16px;
     line-height: 1.5em;
     font-family: raleway;
@@ -219,9 +219,9 @@ ul {
         font-size: 250%;
     }
     .nav {
-        height: 23%;
+        height: 15%;
     }
     .mainBody {
-        margin-top: 10%;
+        margin-top: 4%;
     }
 }
