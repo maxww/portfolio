@@ -40,6 +40,9 @@ p, li {
 #main {
     padding: 0px;
 }
+ui-view {
+    background-color: #fcfcfc;
+}
 a {
     color: #B7B7B7;
     text-decoration: none;
@@ -143,6 +146,11 @@ ul {
 }
 .des {
     margin-top: 25px;
+}
+.artGrid {
+    display: flex;
+    /*justify-content: space-around;*/
+    /*flex-wrap: wrap;*/
 }
 
 /*colors*/

@@ -3,6 +3,16 @@ app.config(function ($stateProvider) {
 			url: "/",
 			templateUrl: "/js/all/all.html"
 		})
+		.state("all.art", {
+			url: "art",
+			controller: "artCtrl",
+			templateUrl: '/js/art/art.html',
+			resolve: {
+				arts: function (artFty) {
+					return artFty.getArts();
+				}
+			}
+		})
 		.state("all.home", {
 			url: "home",
 			templateUrl: "/js/home/home.html",
@@ -36,4 +46,5 @@ app.config(function ($stateProvider) {
 				}
 			}
 		})
+
 })
