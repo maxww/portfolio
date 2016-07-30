@@ -24,7 +24,6 @@ app.setValue('indexHTMLPath', indexPath);
 // So we can refresh the page and won't get 404
 app.get('/*', function (req, res) {
 	res.sendFile(app.get('indexHTMLPath'));
-	// res.sendFile(indexPath)
 });
 
 const PORT = process.env.PORT || 3000;
