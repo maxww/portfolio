@@ -1,8 +1,8 @@
 <div class="row">
-    <div class="col-lg-1"></div>
-    <div class="col-lg-4">
+    <div class="col-lg-1 col-sm-1"></div>
+    <div class="col-lg-4 col-sm-10">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-sm-12">
                 <h2>{{project.title}}</h2>
                 <h5>{{project.shortDes}}</h5>
                 <h5>Role:
@@ -19,18 +19,18 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-sm-12">
                 <iframe ng-show="pathparadox" width="500" height="281" src="http://www.youtube.com/embed/3wNsTCzWtZE" frameborder="0" allowfullscreen="allowfullscreen" data-link="http://www.youtube.com/watch?v=3wNsTCzWtZE"></iframe>
                 <iframe ng-show="morecat" width="500" height="281" src="http://www.youtube.com/embed/r7TN1_o7fpE" frameborder="0" allowfullscreen="allowfullscreen" data-link="http://www.youtube.com/watch?v=r7TN1_o7fpE"></iframe>
             </div>
         </div>
     </div>
-    <div class="col-lg-6 project">
+    <div class="col-lg-6 col-sm-10 project">
         <div class="row">
-            <div class="col-lg-12" ng-repeat="img in project.images">
+            <div class="col-lg-12 col-sm-10" ng-repeat="img in project.images">
                 <img class="img-responsive pjIm" ng-src="{{img.url}}"/>
             </div>
         </div>
     </div>
-    <div class="col-lg-1 hundredHeight"></div>
+    <div class="col-lg-1 hidde-sm hundredHeight"></div>
 </div>
