@@ -4,6 +4,7 @@ html, body {
 }
 body {
     padding: 0;
+    background-color: #EFEFEF;
 }
 .container-fluid {
     height: 100%;
@@ -53,6 +54,7 @@ a:hover {
     justify-content: flex-end;
     align-items: center;
     background-color: #EFEFEF;
+    padding-right: 140px;
 }
 .navItems>img {
     height: 20px;
@@ -171,9 +173,10 @@ ul {
 
 /*mobile*/
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 773px) {
     .nav {
         height: 8%;
+        padding-right: 50px;
     }
     .navItems>img {
         height: 50px;
@@ -183,9 +186,18 @@ ul {
         margin-top: 8%;
     }
     #main {
-        font-size: 200%;
+        font-size: 230%;
+        line-height: 250%;
     }
     .bio>p {
-        line-height: 220%;
+        line-height: 250%;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 773px) and (orientation: landscape) {
+    .nav {
+        height: 23%;
+    }
+    .mainBody {
+        margin-top: 10%;
     }
 }
