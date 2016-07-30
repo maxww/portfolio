@@ -45,7 +45,7 @@ gulp.task('buildJS', ['lintJS'], function () {
 	return gulp.src(['./browser/js/**/*.js'])
 		.pipe(plumber())
 		.pipe(sourcemaps.init())
-		.pipe(concat('main.js'))
+		.pipe(concat('app.js'))
 		// .pipe(babel({
 		//     presets: ['es2015']
 		// }))
@@ -95,7 +95,7 @@ gulp.task('buildJS', ['lintJS'], function () {
 //     var sassCompilation = sass();
 //     sassCompilation.on('error', console.error.bind(console));
 //
-//     return gulp.src('./app/browser/scss/main.scss')
+//     return gulp.src('./app/browser/scss/app.scss')
 //         .pipe(plumber({
 //             errorHandler: notify.onError('SASS processing failed! Check your gulp process.')
 //         }))
@@ -110,7 +110,7 @@ gulp.task('buildJS', ['lintJS'], function () {
 // --------------------------------------------------------------
 
 // gulp.task('buildCSSProduction', function () {
-//     return gulp.src('./app/browser/scss/main.scss')
+//     return gulp.src('./app/browser/scss/app.scss')
 //         .pipe(sass())
 //         .pipe(rename('style.css'))
 //         .pipe(minifyCSS())
@@ -119,7 +119,7 @@ gulp.task('buildJS', ['lintJS'], function () {
 
 // gulp.task('buildJSProduction', function () {
 //     return gulp.src(['./app/browser/js/app.js', './app/browser/js/**/*.js'])
-//         .pipe(concat('main.js'))
+//         .pipe(concat('app.js'))
 //         .pipe(babel({
 //             presets: ['es2015']
 //         }))
