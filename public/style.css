@@ -69,6 +69,7 @@ a:visited {
     background-color: #fcfcfc;
 }
 .homeBox {
+    cursor: pointer;
     height: 33.3%;
     display: flex;
     align-items: center;
@@ -169,6 +170,29 @@ ul {
 .greythree {
     background-color: #4A515A;
     color: #EFEFEF;
+}
+#tc, .white, .grey, .greytwo, .greythree {
+    cursor: pointer;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+.white:hover {
+    background-color: #DBD8EC;
+    color: #FFFFFF;
+}
+#tc:hover, .grey:hover {
+    background-color: #FFE4D3;
+    color: #FFC5AF;
+}
+.greytwo:hover {
+    background-color: #ECD0CF;
+    color: #FFE4D3;
+}
+.greythree:hover {
+    background-color: #B5A6AB;
+    color: #ECD0CF;
 }
 
 /*transition between views*/
