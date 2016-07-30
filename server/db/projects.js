@@ -46,7 +46,7 @@
 		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat03.png?alt=media&token=2d979ce2-1328-46c0-a8d9-37f975044546"
 	}],
 	"links": {
-		"github": "https://github.com/maxww/morecat",
+		"github": "github.com/maxww/morecat",
 		"youtube": "http://www.gracehopper.com/student-projects/morecat"
 	}
 }]

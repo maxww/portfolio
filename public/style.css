@@ -42,9 +42,18 @@ p, li {
 }
 a {
     color: #B7B7B7;
+    text-decoration: none;
 }
 a:hover {
     color: #D6D6D6;
+    text-decoration: none;
+}
+a:link, a:active {
+    text-decoration: none;
+    color: #D6D6D6;
+}
+a:visited {
+    color: #B7B7B7;
     text-decoration: none;
 }
 .hundredHeight {
