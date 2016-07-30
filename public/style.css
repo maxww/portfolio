@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
 }
 body {
     padding: 0;
@@ -18,7 +20,7 @@ body {
 #main {
     padding: 0px;
     font-family: raleway;
-    line-height: 150%;
+    /*line-height: 150%;*/
 }
 a {
     color: #B7B7B7;
@@ -69,8 +71,8 @@ a:hover {
     padding: 12px 16px;
 }
 .bio>p {
-    font-size: 15px;
-    line-height: 300%;
+    font-size: 100%;
+    line-height: 200%;
 }
 .bioRightSide {
     margin-top: 130px;
