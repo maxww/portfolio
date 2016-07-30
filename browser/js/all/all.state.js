@@ -3,15 +3,22 @@ app.config(function ($stateProvider) {
 			url: "/taffy",
 			templateUrl: "/js/all/all.html"
 		})
-		.state("all.about", {
-			url: "/about",
-			templateUrl: "/js/about/about.html",
+		.state("all.resume", {
+			url: "/resume",
+			templateUrl: "/js/about/resume.html",
 			controller: "aboutCtrl",
 			resolve: {
 				about: function (aboutFty) {
 					return aboutFty.getAbout();
+				},
+				projects: function (projectsFty) {
+					return projectsFty.getProjects();
 				}
 			}
+		})
+		.state("all.about", {
+			url: "/about",
+			templateUrl: "/js/about/about.html"
 		})
 		.state("all.contact", {
 			url: "/contact",

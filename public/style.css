@@ -28,13 +28,33 @@ a:hover {
     background-color: #EFEFEF;
 }
 .navItems {
+    cursor: pointer;
     padding: 10px;
+}
+.resume:hover .dropdown {
+    display: block;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+}
+.bio>p {
+    font-size: 16px;
+    line-height: 200%;
+}
+.bioRightSide {
+    margin-top: 130px;
 }
 .homeBox {
     height: 33.3%;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
 }
 h2, h3, h4 {
     font-weight: bold;
@@ -58,8 +78,8 @@ ul {
     justify-content: space-around;
 }
 .pjImg {
-    width: 479.06px;
-    height: 280px;
+    width: 25px;
+    height: 25px;
 }
 .pjIm {
     margin-top: 15px;
@@ -80,6 +100,7 @@ ul {
 }
 .white {
     background-color: #ffffff;
+    color: #D6D6D6;
 }
 .grey {
     font-weight: bold;
@@ -87,6 +108,7 @@ ul {
 }
 .greytwo {
     background-color: #D6D6D6;
+    color: #EFEFEF;
 }
 .greythree {
     background-color: #4A515A;
