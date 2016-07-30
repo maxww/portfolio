@@ -26,8 +26,10 @@ app.get('/*', function (req, res) {
 	res.sendFile(app.get('indexHTMLPath'));
 });
 
-app.listen(3000, function () {
-	console.log("now listening port 3000")
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, function () {
+	console.log(`now listening port ${PORT}`)
 })
 
 app.use(function (err, req, res, next) {
