@@ -84,13 +84,13 @@ a:visited {
     background-color: #EFEFEF;
     padding-right: 140px;
 }
-.navItems>img {
-    height: 23px;
-    width: 23px;
-}
 .navItems {
     cursor: pointer;
     padding: 10px;
+}
+.navItems>img {
+    height: 23px;
+    width: 23px;
 }
 .resume:hover .dropdown {
     display: block;
@@ -243,6 +243,7 @@ ul {
     .dropdown {
         font-size: 200%;
         min-width: 200px;
+        line-height: 180%;
     }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 773px) and (orientation: portrait) {
@@ -265,8 +266,7 @@ ul {
     }
     .dropdown {
         margin: 25px 0 0 30px;
-        line-height: 180%;
-        padding: 50px 70px;
+        padding: 20px 40px;
     }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 773px) and (orientation: landscape) {
@@ -286,7 +286,6 @@ ul {
     }
     .dropdown {
         margin-left: 30px;
-        line-height: 170%;
-        padding: 20px 30px;
+        padding: 5px 15px;
     }
 }
