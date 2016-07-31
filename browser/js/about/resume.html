@@ -30,7 +30,7 @@
                                 <p class="organization">Proficient</p>
                                 <div class="skillsBlock">
                                     <div ng-repeat="language in about.technicalSkills.proficient">
-                                        <a><img class="technicalSkills" src="{{language.url}}"/></a>
+                                        <a href="{{language.link}}" target="_blank"><img class="technicalSkills" src="{{language.url}}"/></a>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                                 <p class="organization">Knowledgeable</p>
                                 <div class="skillsBlock">
                                     <div ng-repeat="language in about.technicalSkills.knowledgeable">
-                                        <a><img class="technicalSkills" src="{{language.url}}"/></a>
+                                        <a href="{{language.link}}" target="_blank"><img class="technicalSkills" src="{{language.url}}"/></a>
                                     </div>
                                 </div>
                             </div>
