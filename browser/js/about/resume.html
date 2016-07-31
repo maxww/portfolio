@@ -23,18 +23,30 @@
                     </div>
                 </div>
                 <div>
-                    <h4>Experiences</h4>
-                    <div ng-repeat="ex in about.experience" class="block">
-                        <p class="date">{{ex.date}}</p>
-                        <p class="organization">{{ex.company}}</p>
-                        <p>{{ex.role}}</p>
-                        <p>
-                            <ul>
-                                <li ng-repeat="de in ex.details">
-                                    {{de.detail}}
-                                </li>
-                            </ul>
-                        </p>
+                    <h4>Technical Skills</h4>
+                    <div class="block">
+                        <p class="organization">Proficient</p>
+                        <!-- <img src="/images/js.png"/>
+                        <img src="/images/node.png"/>
+                        <img class="express" src="/images/express.png"/>
+                        <img src="/images/postgresql.png"/>
+                        <img src="/images/sequelize.png"/>
+                        <img src="/images/angular.png"/>
+                        <img src="/images/firebase.png"/> -->
+                        <p>{{about.technicalSkills.proficient}}</p>
+                    </div>
+                    <div class="block">
+                        <p class="organization">Knowledgeable</p>
+                        <p>{{about.technicalSkills.knowledgeable}}</p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Education</h4>
+                    <div ng-repeat="ed in about.education" class="block">
+                        <p class="date">{{ed.date}}</p>
+                        <p class="organization">{{ed.school}}</p>
+                        <p>{{ed.degree}}</p>
+                        <p>{{ed.honor}}</p>
                     </div>
                 </div>
             </div>
@@ -42,23 +54,18 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div>
-                <h4>Technical Skills</h4>
-                <div class="block">
-                    <p class="organization">Proficient</p>
-                    <p>{{about.technicalSkills.proficient}}</p>
-                </div>
-                <div class="block">
-                    <p class="organization">Knowledgeable</p>
-                    <p>{{about.technicalSkills.knowledgeable}}</p>
-                </div>
-            </div>
-            <div>
-                <h4>Education</h4>
-                <div ng-repeat="ed in about.education" class="block">
-                    <p class="date">{{ed.date}}</p>
-                    <p class="organization">{{ed.school}}</p>
-                    <p>{{ed.degree}}</p>
-                    <p>{{ed.honor}}</p>
+                <h4>Experiences</h4>
+                <div ng-repeat="ex in about.experience" class="block">
+                    <p class="date">{{ex.date}}</p>
+                    <p class="organization">{{ex.company}}</p>
+                    <p>{{ex.role}}</p>
+                    <p>
+                        <ul>
+                            <li ng-repeat="de in ex.details">
+                                {{de.detail}}
+                            </li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>

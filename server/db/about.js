@@ -43,8 +43,8 @@
 		"degree": "Associate of Arts, Studio Art"
 	}],
 	"technicalSkills": {
-		"proficient": "JavaScript, Sequelize, Express, AngularJS, NodeJS, PostgreSQL, Firebase, Photoshop, Illustrator",
-		"knowledgeable": "HTML5, CSS3, Bootstrap, JQuery, Git, Browserify, Clarifai API, Bluebird, Mocha, Chai, SQL, Gulp, React.js, MongoDB"
+		"proficient": "JavaScript, NodeJS, Express.js, Bluebird, SQL, PostgreSQL, Sequelize, AngularJS, HTML5, CSS3, Bootstrap, Gulp, Git, Firebase, Photoshop, Illustrator",
+		"knowledgeable": "Webpack, JQuery,, Browserify, Clarifai API, Mocha, Chai, React.js, MongoDB"
 	},
 	"awards": [{
 		"date": "2012",
