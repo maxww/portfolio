@@ -43,8 +43,71 @@
 		"degree": "Associate of Arts, Studio Art"
 	}],
 	"technicalSkills": {
-		"proficient": "JavaScript, NodeJS, Express.js, Bluebird, SQL, PostgreSQL, Sequelize, AngularJS, HTML5, CSS3, Bootstrap, Gulp, Git, Firebase, Photoshop, Illustrator",
-		"knowledgeable": "Webpack, JQuery,, Browserify, Clarifai API, Mocha, Chai, React.js, MongoDB"
+		"proficient": [{
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/js.png?alt=media&token=f0a87cdc-789c-403e-9229-6587915bfebc",
+			"link": "https://en.wikipedia.org/wiki/JavaScript"
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/node.png?alt=media&token=d851f794-0cfe-4afa-a8ae-fb6f19cc8c85",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/express.png?alt=media&token=ff00ca09-87eb-4897-95dc-7c4362bd9af5",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/bluebird.png?alt=media&token=ae861829-bc11-4e54-a59b-cebca51abc46",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/postgresql.png?alt=media&token=116bed34-3990-49a1-949b-83dcf72d9e57",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/sequelize.png?alt=media&token=ef64efd8-55dc-4482-9ae0-096639cb5b2d",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/angular.png?alt=media&token=f4c553c0-ed09-444c-8db3-b1b2b1daf0e8",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/html.png?alt=media&token=59611319-c13b-4f24-8950-ac3b3379cc08",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/css.png?alt=media&token=86aed98d-ec80-4b38-8482-20d77347831b",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/bootstrap.png?alt=media&token=2f6b7b7b-4777-47df-9ccd-5924b6da3cdc",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/firebase.png?alt=media&token=1a33ed71-1870-43cd-bc5d-9982db409250",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/gulp.png?alt=media&token=8022ea1d-9f68-4c84-bb98-96727363aec3",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/git.png?alt=media&token=2def87a9-d9ce-4936-8bad-7eb35b28c9d9",
+			"link": ""
+		}],
+		"knowledgeable": [{
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/jquery.png?alt=media&token=133c8c17-c4e6-447b-a1ae-c77df8324e58",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/webpack.png?alt=media&token=0ed42782-daac-4cd3-a2b0-14629d52c37b",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/browserify.png?alt=media&token=c7a0c434-f103-4e2c-86d2-097c41733d16",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/clarifai.png?alt=media&token=8fd876c2-ff4b-4dea-affe-82ba28855285",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/mocha.png?alt=media&token=7d87e0a0-e5b9-45c7-9c8c-8b5fa15ee91b",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/chai.png?alt=media&token=d16ed82f-1dbd-45b9-84a7-76fdb434ac4d",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/react.png?alt=media&token=234ddfb0-6a0c-4150-a58d-d55663a609da",
+			"link": ""
+		}, {
+			"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/mongo.png?alt=media&token=fe8826f8-5468-4fae-a699-b0b0caf25893",
+			"link": ""
+		}]
 	},
 	"awards": [{
 		"date": "2012",
