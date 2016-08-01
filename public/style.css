@@ -72,6 +72,12 @@ a:link, a:active {
     justify-content: center;
     cursor: default;
 }
+.normalNav {
+    display: block;
+}
+.mobileNav {
+    display: none;
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -245,15 +251,25 @@ ul {
     .nav {
         padding-right: 50px;
     }
-    .navItems>img {
-        /*height: 50px;
-        width: 50px;*/
-        margin-left: 30px;
-    }
     .dropdown {
         font-size: 200%;
         min-width: 200px;
         line-height: 180%;
+    }
+    .mobileNav {
+        display: block;
+    }
+    .normalNav {
+        display: none;
+    }
+    .mobileNavItems: {
+        cursor: pointer;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    a:hover, .dropdown> p:hover {
+        color: #000000;
+        text-decoration: none;
     }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 773px) and (orientation: portrait) {
@@ -269,7 +285,7 @@ ul {
     .mainBody {
         margin-top: 18%;
     }
-    .navItems>img {
+    .mobileNavItems>img {
         height: 100px;
         width: 100px;
         margin-left: 30px;
@@ -294,7 +310,7 @@ ul {
     .mainBody {
         margin-top: 4%;
     }
-    .navItems>img {
+    .mobileNavItems>img {
         height: 50px;
         width: 50px;
         margin-left: 30px;
