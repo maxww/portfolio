@@ -1,54 +1,54 @@
 <div class="normalNav">
     <div class="nav navbar-fixed-top">
         <div class="navItems tcIcon" ui-sref="all.home" ng-mouseenter="homeHovered=true" ng-mouseleave="homeHovered=false">
-            <img ng-show="!homeHovered" class="top" src="/images/tc.png"/>
-            <img ng-show="homeHovered" class="bottom" src="/images/tcc_hover.png"/>
+            <img class="img" ng-show="!homeHovered" class="top" src="/images/tc.png"/>
+            <img class="img" ng-show="homeHovered" class="bottom" src="/images/tcc_hover.png"/>
         </div>
         <div class="navItems resume" ng-mouseenter="infoHovered=true" ng-mouseleave="infoHovered=false">
-            <img ng-show="!infoHovered" src="/images/info.png"/>
-            <img ng-show="infoHovered" src="/images/info_hover.png"/>
+            <img class="img" ng-show="!infoHovered" src="/images/info.png"/>
+            <img class="img" ng-show="infoHovered" src="/images/info_hover.png"/>
             <div class="dropdown">
-                <p ui-sref="all.about">about</p>
+                <p class="p" ui-sref="all.about">about</p>
                 <p>
                     <span ui-sref="all.resume">resume</span>
-                    <a href="https://drive.google.com/file/d/0Bz38-eKIam47a04xck44LTA4MWM/view?usp=sharing" target="_blank">pdf</a>
+                    <a class="a" href="https://drive.google.com/file/d/0Bz38-eKIam47a04xck44LTA4MWM/view?usp=sharing" target="_blank">pdf</a>
                 </p>
-                <p ui-sref="all.project({name:'pathparadox'})">
+                <p class="p" ui-sref="all.project({name:'pathparadox'})">
                     Path Paradox
                 </p>
-                <p ui-sref="all.project({name:'morecat'})">
+                <p class="p" ui-sref="all.project({name:'morecat'})">
                     moreCat
                 </p>
             </div>
         </div>
-        <a class="navItems" href="mailto:tornglinchen@gmail.com" ng-mouseenter="emailHovered=true" ng-mouseleave="emailHovered=false">
-            <img ng-show="!emailHovered" src="/images/email.png"/>
-            <img ng-show="emailHovered" src="/images/email_hover.png"/>
+        <a class="a navItems" href="mailto:tornglinchen@gmail.com" ng-mouseenter="emailHovered=true" ng-mouseleave="emailHovered=false">
+            <img class="img" ng-show="!emailHovered" src="/images/email.png"/>
+            <img class="img" ng-show="emailHovered" src="/images/email_hover.png"/>
         </a>
-        <a class="navItems" href="https://github.com/maxww" target="_blank" ng-mouseenter="gitHovered=true" ng-mouseleave="gitHovered=false">
-            <img ng-show="!gitHovered" src="/images/git.png"/>
-            <img ng-show="gitHovered" src="/images/git_hover.png"/>
+        <a class="a navItems" href="https://github.com/maxww" target="_blank" ng-mouseenter="gitHovered=true" ng-mouseleave="gitHovered=false">
+            <img class="img" ng-show="!gitHovered" src="/images/git.png"/>
+            <img class="img" ng-show="gitHovered" src="/images/git_hover.png"/>
         </a>
-        <a class="navItems" href="https://www.linkedin.com/in/torng-lin-taffy-chen-cueto" target="_blank" ng-mouseenter="inHovered=true" ng-mouseleave="inHovered=false">
-            <img ng-show="!inHovered" src="/images/in.png"/>
-            <img ng-show="inHovered" src="/images/in_hover.png"/>
+        <a class="a navItems" href="https://www.linkedin.com/in/torng-lin-taffy-chen-cueto" target="_blank" ng-mouseenter="inHovered=true" ng-mouseleave="inHovered=false">
+            <img class="img" ng-show="!inHovered" src="/images/in.png"/>
+            <img class="img" ng-show="inHovered" src="/images/in_hover.png"/>
         </a>
     </div>
 </div>
 <div class="mobileNav">
     <div class="nav navbar-fixed-top">
         <div class="mobileNavItems tcIcon" ui-sref="all.home">
-            <img class="top" src="/images/tc.png"/>
+            <img class="img" class="top" src="/images/tc.png"/>
         </div>
         <div class="mobileNavItems resume">
-            <img src="/images/info.png"/>
+            <img class="img" src="/images/info.png"/>
             <div class="dropdown">
-                <p ui-sref="all.about">about</p>
-                <p>
+                <p class="p" ui-sref="all.about">about</p>
+                <p class="p">
                     <span ui-sref="all.resume">resume</span>
-                    <a href="https://drive.google.com/file/d/0Bz38-eKIam47a04xck44LTA4MWM/view?usp=sharing" target="_blank">pdf</a>
+                    <a class="a" href="https://drive.google.com/file/d/0Bz38-eKIam47a04xck44LTA4MWM/view?usp=sharing" target="_blank">pdf</a>
                 </p>
-                <p ui-sref="all.project({name:'pathparadox'})">
+                <p class="p" ui-sref="all.project({name:'pathparadox'})">
                     Path Paradox
                 </p>
                 <p ui-sref="all.project({name:'morecat'})">
@@ -56,14 +56,14 @@
                 </p>
             </div>
         </div>
-        <a class="mobileNavItems" href="mailto:tornglinchen@gmail.com">
-            <img src="/images/email.png"/>
+        <a class="a mobileNavItems" href="mailto:tornglinchen@gmail.com">
+            <img class="img" src="/images/email.png"/>
         </a>
-        <a class="mobileNavItems" href="https://github.com/maxww" target="_blank">
-            <img src="/images/git.png"/>
+        <a class="a mobileNavItems" href="https://github.com/maxww" target="_blank">
+            <img class="img" src="/images/git.png"/>
         </a>
-        <a class="mobileNavItems" href="https://www.linkedin.com/in/torng-lin-taffy-chen-cueto" target="_blank">
-            <img src="/images/in.png"/>
+        <a class="a mobileNavItems" href="https://www.linkedin.com/in/torng-lin-taffy-chen-cueto" target="_blank">
+            <img class="img" src="/images/in.png"/>
         </a>
     </div>
 </div>
