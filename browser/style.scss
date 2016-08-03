@@ -13,10 +13,10 @@ $dustyrose: #B5A6AB;
 /*           */
 /* body size */
 /*           */
-.html {
+.wholeapp {
     height: 100%;
 }
-.body {
+.appbody {
     height: 100%;
     font-size: 16px;
     padding: 0;
@@ -31,28 +31,25 @@ $dustyrose: #B5A6AB;
 /*           */
 /* font size */
 /*           */
-.h1 {
-    font-size: 190%;
-}
-.h2 {
+.titleFont {
     font-size: 170%;
 }
-.h3 {
+.nameFont {
     font-size: 150%;
 }
-.h4 {
+.categoryFont {
     font-size: 130%;
 }
-.h5 {
+.descriptionFont {
     font-size: 110%;
 }
-.li,
-.p {
+.listFont,
+.paragraphFont {
     font-size: 100%;
 }
-.h2,
-.h3,
-.h4 {
+.categoryFont,
+.nameFont,
+.titleFont {
     font-weight: bold;
     margin-top: 30px;
 }
@@ -115,11 +112,11 @@ $dustyrose: #B5A6AB;
     min-width: 160px;
     box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
-    > .p:hover {
+    > .paragraphFont:hover {
         color: $rose;
     }
 }
-.bio > .p {
+.bio > .paragraphFont {
     line-height: 200%;
 }
 .bioRightSide {
@@ -128,7 +125,7 @@ $dustyrose: #B5A6AB;
 .organization {
     font-weight: bold;
 }
-.ul {
+.ulStyle {
     list-style-type: square;
 }
 .block {
@@ -177,7 +174,7 @@ $dustyrose: #B5A6AB;
 /*       */
 /* hover */
 /*       */
-.a {
+.aStyle {
     color: $dategrey;
     text-decoration: none;
     &:hover {
@@ -284,7 +281,7 @@ $dustyrose: #B5A6AB;
         font-size: 200%;
         min-width: 200px;
         line-height: 180%;
-        > .p:hover {
+        > .paragraphFont:hover {
             color: #000000;
             text-decoration: none;
         }
@@ -300,7 +297,7 @@ $dustyrose: #B5A6AB;
         padding: 10px;
         margin-left: 30px;
     }
-    .a:hover {
+    .aStyle:hover {
         color: #000000;
         text-decoration: none;
     }
