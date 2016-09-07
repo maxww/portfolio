@@ -19,7 +19,7 @@
 	}, {
 		"date": "October 2013– March 2016",
 		"company": "Casual Express Apparel Corp., New York, NY",
-		"role": "Knitwear Production Coordinator",
+		"role": "Technical Designer",
 		"details": [{
 			"detail": "Transform 100 + designs into technical specs bi-annually"
 		}, {

@@ -1,23 +1,23 @@
-<div class="container-fluid ">
+<div class="container-fluid">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div class="">
-                <h3>
+                <p class="name-font">
                     {{about.name}}
-                </h3>
-                <p>{{about.phone}}</p>
-                <p>{{about.email}}</p>
-                <p>{{about.location}}</p>
+                </p>
+                <p class="paragraph-font">{{about.phone}}</p>
+                <p class="paragraph-font">{{about.email}}</p>
+                <p class="paragraph-font">{{about.location}}</p>
                 <div>
-                    <h4>Projects</h4>
+                    <p class="category-font">Projects</p>
                     <div>
-                        <a ui-sref="all.project({name:'pathparadox'})">
+                        <a class="link-style" ui-sref="all.project({name:'pathparadox'})">
                             Path Paradox
                         </a>
                     </div>
                     <div>
-                        <a ui-sref="all.project({name:'morecat'})">
+                        <a class="link-style" ui-sref="all.project({name:'morecat'})">
                             moreCat
                         </a>
                     </div>
@@ -25,20 +25,20 @@
                 <div class="row">
                     <div class="col-lg-10">
                         <div>
-                            <h4>Technical Skills</h4>
+                            <p class="category-font">Technical Skills</p>
                             <div class="block">
-                                <p class="organization">Proficient</p>
-                                <div class="skillsBlock">
+                                <p class="paragraph-font organization">Proficient</p>
+                                <div class="skills-block">
                                     <div ng-repeat="language in about.technicalSkills.proficient">
-                                        <a href="{{language.link}}" target="_blank"><img class="technicalSkills" src="{{language.url}}"/></a>
+                                        <a href="{{language.link}}" target="_blank"><img class="technical-skills" src="{{language.url}}"/></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="block">
-                                <p class="organization">Knowledgeable</p>
-                                <div class="skillsBlock">
+                                <p class="paragraph-font organization">Knowledgeable</p>
+                                <div class="skills-block">
                                     <div ng-repeat="language in about.technicalSkills.knowledgeable">
-                                        <a href="{{language.link}}" target="_blank"><img class="technicalSkills" src="{{language.url}}"/></a>
+                                        <a href="{{language.link}}" target="_blank"><img class="technical-skills" src="{{language.url}}"/></a>
                                     </div>
                                 </div>
                             </div>
@@ -50,13 +50,13 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div>
-                <h4>Experiences</h4>
+                <p class="category-font">Experiences</p>
                 <div ng-repeat="ex in about.experience" class="block">
-                    <p class="date">{{ex.date}}</p>
-                    <p class="organization">{{ex.company}}</p>
+                    <p class="paragraph-font date">{{ex.date}}</p>
+                    <p class="paragraph-font organization">{{ex.company}}</p>
                     <p>{{ex.role}}</p>
                     <p>
-                        <ul class="ul">
+                        <ul class="ul-style">
                             <li ng-repeat="de in ex.details">
                                 {{de.detail}}
                             </li>
@@ -65,10 +65,10 @@
                 </div>
             </div>
             <div>
-                <h4>Education</h4>
+                <p class="category-font">Education</p>
                 <div ng-repeat="ed in about.education" class="block">
-                    <p class="date">{{ed.date}}</p>
-                    <p class="organization">{{ed.school}}</p>
+                    <p class="paragraph-font date">{{ed.date}}</p>
+                    <p class="paragraph-font organization">{{ed.school}}</p>
                     <p>{{ed.degree}}</p>
                     <p>{{ed.honor}}</p>
                 </div>
@@ -77,15 +77,15 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-2 col-md-2 col-sm-12">
             <div>
-                <h4>Awards</h4>
+                <p class="category-font">Awards</p>
                 <div ng-repeat="ad in about.awards" class="block">
-                    <p class="date">{{ad.date}}</p>
-                    <p class="organization">{{ad.school}}</p>
+                    <p class="paragraph-font date">{{ad.date}}</p>
+                    <p class="paragraph-font organization">{{ad.school}}</p>
                     <p>{{ad.award}}</p>
                 </div>
             </div>
             <div>
-                <h4>Languages</h4>
+                <p class="category-font">Languages</p>
                 <div class="block">
                     <p>{{about.languages}}</p>
                 </div>

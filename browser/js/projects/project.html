@@ -3,18 +3,18 @@
     <div class="col-lg-4 col-sm-10">
         <div class="row">
             <div class="col-lg-12 col-sm-12">
-                <p class="h2">{{project.title}}</p>
-                <p class="h5">{{project.shortDes}}</p>
-                <p class="h5">Role:
+                <p class="title-font">{{project.title}}</p>
+                <p class="description-font">{{project.shortDes}}</p>
+                <p class="description-font">Role:
                     {{project.role}}</p>
                 <div>
-                    <a class="a" ng-show="project.links.website" href="https://{{project.links.website}}" target="_blank">{{project.links.website}}</a>
+                    <a class="link-style" ng-show="project.links.website" href="https://{{project.links.website}}" target="_blank">{{project.links.website}}</a>
                 </div>
                 <div>
-                    <a class="a" href="https://{{project.links.github}}" target="_blank">{{project.links.github}}</a>
+                    <a class="link-style" href="https://{{project.links.github}}" target="_blank">{{project.links.github}}</a>
                 </div>
-                <div class="des">
-                    <p class="p" ng-repeat="des in project.description">
+                <div class="description-block">
+                    <p class="paragraph-font" ng-repeat="des in project.description">
                         {{des.des}}
                     </p>
                 </div>
@@ -25,12 +25,12 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6 col-sm-10 project">
+    <div class="col-lg-6 col-sm-10 project-images">
         <div class="row">
             <div class="col-lg-12 col-sm-10" ng-repeat="img in project.images">
-                <img class="img img-responsive pjIm" ng-src="{{img.url}}"/>
+                <img class="img img-responsive project-image" ng-src="{{img.url}}"/>
             </div>
         </div>
     </div>
-    <div class="col-lg-1 hidde-sm hundredHeight"></div>
+    <div class="col-lg-1 hidde-sm hundred-height"></div>
 </div>

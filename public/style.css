@@ -72,10 +72,10 @@ a:link, a:active {
     justify-content: center;
     cursor: default;
 }
-.normalNav {
+.normal-nav {
     display: block;
 }
-.mobileNav {
+.mobile-nav {
     display: none;
 }
 .nav {
@@ -86,11 +86,11 @@ a:link, a:active {
     background-color: #EFEFEF;
     padding-right: 140px;
 }
-.navItems {
+.nav-items {
     cursor: pointer;
     padding: 10px;
 }
-.navItems>img {
+.nav-items>img {
     height: 23px;
     width: 23px;
 }
@@ -112,7 +112,7 @@ a:link, a:active {
 .bio>p {
     line-height: 200%;
 }
-.bioRightSide {
+.bio-right-side {
     margin-top: 130px;
 }
 h2, h3, h4 {
@@ -128,17 +128,17 @@ ul {
 .block {
     margin: 20px 0 30px 0;
 }
-.skillsBlock {
+.skills-block {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.technicalSkills {
+.technical-skills {
     width: 50px;
     height: 50px;
     margin: 10px 10px;
 }
-.technicalSkills:hover {
+.technical-skills:hover {
     opacity: 0.5;
 }
 .pjs {
@@ -149,11 +149,11 @@ ul {
     align-items: center;
     justify-content: space-around;
 }
-.pjImg {
+.project-imageg {
     width: 25px;
     height: 25px;
 }
-.pjIm {
+.project-image {
     margin-top: 15px;
     width: 640px;
     height: 370px;
@@ -183,15 +183,15 @@ ul {
     background-color: #EFEFEF;
     color: #D6D6D6;
 }
-.greytwo {
+.grey-two {
     background-color: #D6D6D6;
     color: #EFEFEF;
 }
-.greythree {
+.grey-three {
     background-color: #4A515A;
     color: #EFEFEF;
 }
-#tc, .white, .grey, .greytwo, .greythree {
+#tc, .white, .grey, .grey-two, .grey-three {
     cursor: pointer;
     -moz-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
@@ -206,11 +206,11 @@ ul {
     background-color: #FFE4D3;
     color: #FFC5AF;
 }
-.greytwo:hover {
+.grey-two:hover {
     background-color: #ECD0CF;
     color: #FFE4D3;
 }
-.greythree:hover {
+.grey-three:hover {
     background-color: #B5A6AB;
     color: #ECD0CF;
 }
@@ -256,13 +256,13 @@ ul {
         min-width: 200px;
         line-height: 180%;
     }
-    .mobileNav {
+    .mobile-nav {
         display: block;
     }
-    .normalNav {
+    .normal-nav {
         display: none;
     }
-    .mobileNavItems: {
+    .mobile-nav-items: {
         cursor: pointer;
         padding: 10px;
         margin-left: 30px;
@@ -285,7 +285,7 @@ ul {
     .mainBody {
         margin-top: 18%;
     }
-    .mobileNavItems>img {
+    .mobile-nav-items>img {
         height: 100px;
         width: 100px;
         margin-left: 30px;
@@ -294,7 +294,7 @@ ul {
         margin: 25px 0 0 30px;
         padding: 20px 40px;
     }
-    .technicalSkills {
+    .technical-skills {
         width: 150px;
         height: 150px;
         margin: 50px 30px;
@@ -310,7 +310,7 @@ ul {
     .mainBody {
         margin-top: 4%;
     }
-    .mobileNavItems>img {
+    .mobile-nav-items>img {
         height: 50px;
         width: 50px;
         margin-left: 30px;
@@ -319,7 +319,7 @@ ul {
         margin-left: 30px;
         padding: 5px 15px;
     }
-    .technicalSkills {
+    .technical-skills {
         width: 80px;
         height: 80px;
         margin: 30px 25px;
