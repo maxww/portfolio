@@ -23,7 +23,7 @@
 	}],
 	"links": {
 		"website": "pathparadox.com",
-		"github": "github.com/maxww/tsuro",
+		"github": "github.com/maxww/Path_Paradox",
 		"youtube": "http://www.youtube.com/embed/3wNsTCzWtZE"
 	}
 }, {
