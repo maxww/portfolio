@@ -15,11 +15,11 @@
 		"des": "Our game is live on pathparadox.com. We hope you enjoy playing it as much as we enjoyed building it."
 	}],
 	"images": [{
-		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Path-Paradox_01.png?alt=media&token=59e0fae3-cf8b-489a-9d47-36adfb708117"
+		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Path-Paradox_01.jpg?alt=media&token=1280e354-ade6-434c-861e-d94c790575ef"
 	}, {
-		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Path-Paradox_02.png?alt=media&token=27422239-404b-4abe-a6ef-840bf56996bb"
+		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Path-Paradox_02.jpg?alt=media&token=eedd1a1d-f447-4adf-b073-388ebc367115"
 	}, {
-		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Path-Paradox_03.png?alt=media&token=fa7aae25-dff5-4bd0-88a3-ad2bc33e51f1"
+		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/Path-Paradox_03.jpg?alt=media&token=c5afb9cb-0351-44d2-9826-decfdd38c7cd"
 	}],
 	"links": {
 		"website": "pathparadox.com",
@@ -39,11 +39,11 @@
 		"des": "moreCat received People’s Choice Award at Grace Hopper Academy Stackathon. It is fun, lighthearted, and hopes to bring joy to the user's life."
 	}],
 	"images": [{
-		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat01.png?alt=media&token=ca0d118d-c2d6-47be-83d8-74304a9242b6"
+		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat01.jpg?alt=media&token=08db36cf-2878-499a-963d-09e9c741b069"
 	}, {
-		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat02.png?alt=media&token=9f491087-9310-4ca9-bcae-a8b3bdbc1cb7"
+		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat02.jpg?alt=media&token=b0be924f-e2df-4005-a93c-ba9f2a816c0c"
 	}, {
-		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat03.png?alt=media&token=2d979ce2-1328-46c0-a8d9-37f975044546"
+		"url": "https://firebasestorage.googleapis.com/v0/b/tornglinchen-1c554.appspot.com/o/moreCat03.jpg?alt=media&token=3252f99d-914f-42f2-9d3c-05c8db941ee0"
 	}],
 	"links": {
 		"github": "github.com/maxww/morecat",
