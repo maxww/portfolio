@@ -6,6 +6,10 @@
 	"github": "github.com/maxww",
 	"location": "New York, NY",
 	"experience": [{
+		"date": "September 2016 - Present",
+		"company": "Priceline.com, New York, NY",
+		"role": "Associate Front End Developer"
+	}, {
 		"date": "March 2015 – April 2016",
 		"company": "Dance-Sing Time Inc., Queens, NY",
 		"role": "Music Together Center Director",
